@@ -1,0 +1,9 @@
+START 1000
+sub 9
+loop: mvi 2
+jmp loop
+cmp next
+bck: add 2
+add 5 
+next: mul 3
+END
